@@ -68,6 +68,8 @@ app.delete('/veiculos/:id', (req, res) => {
     res.status(204).send();
 });
 
+
+
 // Endpoint para criar um usuário
 app.post('/usuarios', async (req, res) => {
     const { nome, email, senha } = req.body;
